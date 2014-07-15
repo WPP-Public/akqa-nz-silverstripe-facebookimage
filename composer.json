@@ -1,0 +1,14 @@
+{
+	"name": "heyday/silverstripe-facebookimage",
+	"type": "silverstripe-module",
+	"description": "Provides an Image Field for use when sharing pages on facebook",
+	"authors": [
+		{
+			"name": "Glenn Bautista",
+			"email": "glenn@heyday.co.nz"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

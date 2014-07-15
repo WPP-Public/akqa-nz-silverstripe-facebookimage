@@ -1,0 +1,7 @@
+SiteConfig:
+  extensions:
+    - SiteConfigFacebookImageExtension
+
+Page:
+  extensions:
+    - PageFacebookImageExtension
