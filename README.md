@@ -1,6 +1,8 @@
 # SilverStripe Facebook Image
 
-Provides an Image Field for use when sharing pages on facebook. This extension provides fields in both the SiteConfig and on Page. The SiteConfig image is the default fallback for all pages but one can customise which image appears on each individual page by using that page's facebook image field.
+Provides an Image Field for use when sharing pages on facebook.
+
+This extension provides fields in both the SiteConfig and on Page. The SiteConfig image is the default fallback for all pages but one can customise which image appears on each individual page by using that page's facebook image field.
 
 
 ## Installation (with composer)
@@ -10,9 +12,14 @@ Provides an Image Field for use when sharing pages on facebook. This extension p
 ## Usage
 
 ```html
-<head>
-$FacebookMetaTags
-</head>
+<html>
+	<head>
+	$FacebookMetaTags
+	</head>
+	<body>
+		<p>Hello, world!</p>
+	<body>
+</html>
 ```
 
 Just use the $FacebookMetaTags variable in your silverstripe template in the <head> section.
