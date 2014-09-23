@@ -2,14 +2,9 @@
 
 class SiteConfigFacebookImageExtension extends DataExtension
 {
-    public function extraStatics($class = null, $extension = null)
-    {
-        return array(
-            'has_one' => array(
-                'FacebookImage' => 'Image'
-            )
-        );
-    }
+    private static $has_one = array(
+        'FacebookImage' => 'Image'
+    );
 
     public function updateCMSFields(FieldList $fields)
     {

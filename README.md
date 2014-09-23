@@ -1,6 +1,6 @@
 # SilverStripe Facebook Image
 
-SilverStripe 2.4 compatible
+This version supports SilverStripe 3, see the 0.0 branch for a SilverStripe 2.4 compatible version.
 
 Provides an Image Field for use when sharing pages on facebook.
 
