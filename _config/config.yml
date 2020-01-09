@@ -1,7 +1,7 @@
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - SiteConfigFacebookImageExtension
+    - WT\FacebookImage\SiteConfigFacebookImageExtension
 
 Page:
   extensions:
-    - PageFacebookImageExtension
+    - WT\FacebookImage\PageFacebookImageExtension
