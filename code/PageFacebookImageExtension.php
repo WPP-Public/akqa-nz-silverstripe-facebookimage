@@ -19,7 +19,7 @@ class PageFacebookImageExtension extends DataExtension
     {
         $fields->addFieldToTab(
             'Root.Facebook',
-            $uf = new UploadField('FacebookImage', 'Facebook image for facebook share'),
+            $uf = new UploadField('FacebookImage', 'Facebook image for facebook share')
         );
 
         $uf->setFolderName('FacebookImages/');
