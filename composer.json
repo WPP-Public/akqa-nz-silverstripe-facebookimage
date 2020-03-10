@@ -2,6 +2,7 @@
 	"name": "heyday/silverstripe-facebookimage",
 	"type": "silverstripe-module",
 	"description": "Provides an Image Field for use when sharing pages on facebook",
+	"type": "silverstripe-vendormodule",
 	"authors": [
 		{
 			"name": "Glenn Bautista",
@@ -9,6 +10,7 @@
 		}
 	],
 	"require": {
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+		"silverstripe/framework": "^4.0.0"
 	}
 }
