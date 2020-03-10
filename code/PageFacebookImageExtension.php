@@ -11,10 +11,23 @@ use SilverStripe\SiteConfig\SiteConfig;
 
 class PageFacebookImageExtension extends DataExtension
 {
-    private static $has_one = array(
+    /**
+     * @var array
+     */
+    private static $has_one = [
         'FacebookImage' => Image::class,
-    );
+    ];
 
+    /**
+     * @var array
+     */
+    private static $owns = [
+        'FacebookImage',
+    ];
+
+    /**
+     * @param FieldList $fields
+     */
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldToTab(
