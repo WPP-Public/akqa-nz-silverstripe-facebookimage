@@ -1,6 +1,6 @@
 <?php
 
-namespace WT\FacebookImage;
+namespace Heyday\FacebookImage;
 
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
@@ -35,5 +35,4 @@ class SiteConfigFacebookImageExtension extends DataExtension
 
         $uf->setFolderName('FacebookImages/');
     }
-
-} 
+}

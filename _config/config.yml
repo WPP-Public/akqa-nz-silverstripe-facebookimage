@@ -1,7 +1,7 @@
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - WT\FacebookImage\SiteConfigFacebookImageExtension
+    - Heyday\FacebookImage\SiteConfigFacebookImageExtension
 
 Page:
   extensions:
-    - WT\FacebookImage\PageFacebookImageExtension
+    - Heyday\FacebookImage\PageFacebookImageExtension
