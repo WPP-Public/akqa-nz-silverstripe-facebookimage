@@ -3,8 +3,8 @@
     "description": "Provides an Image Field for use when sharing pages on facebook",
     "type": "silverstripe-vendormodule",
     "require": {
-        "composer/installers": "^1.0",
-        "silverstripe/framework": "^4.0.0 || ^5.0.0"
+        "composer/installers": "^2.0",
+        "silverstripe/framework": "^5.0.0"
     },
     "autoload": {
         "psr-4": {
